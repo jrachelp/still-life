@@ -1,0 +1,117 @@
+body {
+	background-color: black;
+}
+.frame {
+	width: 1000px;
+  	height: 600px;
+	background: slategrey;
+	margin: 30px auto;
+	position: relative;
+}
+.table {
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 800px;
+	height: 350px;
+}
+.background {
+	background-color: dimgrey;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 200px;
+	height: 350px;
+}
+.stick {
+	position: absolute;
+	width: 40px;
+	height: 120px;
+	background-color: gold;
+	left: 200px;
+	top: 200px;
+}
+.candle {
+	position: absolute;
+	width: 30px;
+	height: 120px;
+	left: 205px;
+	top: 80px;
+	background-color: ivory;
+}
+.longstick {
+	position: absolute;
+	width: 20px;
+	height: 200px;
+	background-color: gold;
+	left: 210px;
+	top: 300px;
+}
+.candlebase {
+	position: absolute;
+    height: 50px;
+    width: 250px;
+    left: 80px;
+    bottom: 50px;
+    border-radius: 100%;
+    border: 10px solid gold;
+    z-index: 2;
+}
+.pumpkin {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	right: 220px;
+	bottom: 50px;
+	background-color: darkorange;
+	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 40%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	z-index: 2;
+
+}
+.pumpkinknob {
+	position: absolute;
+	height: 50px;
+	width: 30px;
+	right: 300px;
+	bottom: 245px;
+	background-color: brown;
+	border-radius: 40%
+}
+.greenstems {
+	position: absolute;
+	height: 350px;
+	width: 90px;
+	background-color: mediumseagreen;
+	top: 0;
+	right: 500px;
+}
+.greenpoof {
+	position: absolute;
+	top: 0px;
+	right: 430px;
+	width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-top: 200px solid mediumseagreen;
+}
+.vase {
+	position: absolute;
+	height: 250px;
+	width: 110px;
+	background-color: rgba(245,245,220,.6);
+	left: 400px;
+	top: 150px;
+}
+.glass {
+	position: absolute;
+	height: 245px;
+	width: 40px;
+	background-color: rgb(245,245,220,.6);
+	left: 450px;
+	top: 150px;
+}
